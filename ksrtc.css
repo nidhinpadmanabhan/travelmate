@@ -41,13 +41,22 @@ body {
 }
 .a1{
     animation: anim .7s ease-in-out 2s infinite;
+    width: 7%;
+    margin-left:10.5%
 }
 .a1:hover{
     animation-play-state: paused;
-    box-shadow: 4px 4px 30px rgb(255, 94, 0);
+    box-shadow: 4px 4px 20px rgb(255, 94, 0);
+    border-radius: 15px;
 }
 .c4{
     margin-top: 6%;
+}
+.b1{
+    background-color: rgb(255, 94, 0);
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 46%;
 }
 @keyframes anim{
     0%{
@@ -114,6 +123,13 @@ body {
         font-size: larger;
         margin-top: 4%;
     }
+    .a1{
+        width: 8%;
+        margin-left: 10%;
+    }
+    .b1{
+        margin-left: 40%;
+    }
 }
 
 @media(max-width: 550px) {
@@ -141,6 +157,22 @@ body {
     .i1{
         filter: opacity(.25) grayscale(20);
     }
+    .a1{
+        width: 40%;
+        margin-left: 28%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .modal h6{
+        font-size: small;
+    }
+    .modal a{
+        font-size: x-small;
+    }
+    .b1{
+        margin-left: 35%;
+    }
+    
 }
 
 @media(max-width: 991px) {
