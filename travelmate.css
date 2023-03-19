@@ -27,7 +27,7 @@ body {
 
 .c1 a {
     text-decoration: none;
-    color:  rgb(40, 125, 252);
+    color: rgb(40, 125, 252);
     transition: 1s ease-in;
 }
 
@@ -56,11 +56,13 @@ body {
     box-shadow: 4px 4px 20px rgb(40, 125, 252);
     border-radius: 15px;
 }
+
 .a2 {
     animation: anim .7s ease-in-out 2s infinite;
     width: 7%;
     margin-left: 8%
 }
+
 .a2:hover {
     animation-play-state: paused;
     box-shadow: 2px 2px 30px rgb(0, 102, 254);
@@ -88,17 +90,19 @@ body {
     transform: translate(0, -5px);
 }
 
-.c5{
+.c5 {
     background-color: rgb(40, 125, 252);
     border-radius: 30px;
     width: 90%;
 }
-.c6{
+
+.c6 {
     padding-left: 4%;
     padding-top: 1%;
     font-size: small;
 }
-.c6 h6{
+
+.c6 h6 {
     font-size: large;
 }
 
@@ -187,6 +191,7 @@ body {
         width: 8%;
         margin-left: 10%;
     }
+
     .a2 {
         width: 12%;
         margin-left: 16%;
@@ -198,12 +203,14 @@ body {
     .b1 {
         margin-left: 47%;
     }
-    .c6{
+
+    .c6 {
         padding-left: 3%;
         padding-top: 1%;
         font-size: xx-small;
     }
-    .c6 h6{
+
+    .c6 h6 {
         font-size: small;
     }
 }
@@ -213,20 +220,6 @@ body {
     .c1 h3 {
         font-size: 1.2em;
         margin-bottom: 0%;
-    }
-    .c3 {
-        width: 96.5%;
-        margin-left: -50px;
-        margin-bottom: -5PX;
-
-    }
-
-    .c3 h2 {
-        font-size: medium;
-    }
-
-    .c3 p {
-        font-size: x-small;
     }
 
     .c4 {
@@ -241,7 +234,7 @@ body {
         margin-top: 3%;
         margin-bottom: 6%;
     }
-    
+
     .a2 {
         width: 40%;
         margin-left: 30.5%;
@@ -260,14 +253,56 @@ body {
     .b1 {
         margin-left: 41%;
     }
-    .c6{
-        padding-left:13%;
+
+    .c6 {
+        padding-left: 13%;
         padding-top: 1%;
         font-size: xx-small;
     }
-    .c6 h6{
+
+    .c6 h6 {
         font-size: small;
     }
 
 }
 
+@media(max-width: 610px) {
+    .c3 {
+        width: 92%;
+        margin-left: -50px;
+        margin-bottom: -10PX;
+
+    }
+
+    .c3 h2 {
+        font-size: medium;
+    }
+
+    .c3 p {
+        font-size: x-small;
+    }
+}
+
+@media(max-width: 380px) {
+    .c3 {
+        width: 99%;
+        margin-left: -50px;
+        margin-bottom: -18PX;
+
+    }
+
+    .c3 h2 {
+        font-size: x-small;
+    }
+
+    .c3 p {
+        font-size: xx-small;
+    }
+
+}
+@media(max-width: 321px){
+    .c3 {
+        display: none;
+
+    }
+}
