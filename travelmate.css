@@ -3,7 +3,7 @@ body {
 }
 
 .n1 {
-    background-color: rgb(254, 114, 33);
+    background-color: rgb(40, 125, 252);
     height: 70px;
     width: 100%;
 }
@@ -14,25 +14,25 @@ body {
 
 .c1 h3 {
     font-size: 5em;
-    color: white;
+    color: rgb(132, 193, 251);
     margin-bottom: 10%;
     transition: 2s ease-in-out;
 }
 
 .c1 h3:hover {
     transform: scale(1.05);
-    color: red;
+    color: rgb(40, 125, 252);
 }
 
 .c1 a {
     text-decoration: none;
-    color: white;
+    color: rgb(132, 193, 251);
     transition: 1s ease-in;
 }
 
 .c1 a:hover {
     text-decoration: none;
-    color: red;
+    color: rgb(40, 125, 252);
 }
 
 .c3 {
@@ -45,24 +45,35 @@ body {
 .a1 {
     animation: anim .7s ease-in-out 2s infinite;
     width: 7%;
-    margin-left: 10.5%
+    margin-left: 10.5%;
+    margin-bottom: 2%;
 }
 
 .a1:hover {
     animation-play-state: paused;
-    box-shadow: 4px 4px 20px rgb(254, 114, 33);
+    box-shadow: 4px 4px 20px rgb(40, 125, 252);
+    border-radius: 15px;
+}
+.a2 {
+    animation: anim .7s ease-in-out 2s infinite;
+    width: 7%;
+    margin-left: 8%
+}
+.a2:hover {
+    animation-play-state: paused;
+    box-shadow: 2px 2px 30px rgb(0, 102, 254);
     border-radius: 15px;
 }
 
 .c4 {
-    margin-top: 6%;
+    margin-top: 2%;
 }
 
 .b1 {
-    background-color: rgb(254, 114, 33);
+    background-color: rgb(40, 125, 252);
     border-radius: 5px;
     margin-top: 5%;
-    margin-left: 46%;
+    margin-left: 47.5%;
 }
 
 .i2 {
@@ -71,34 +82,12 @@ body {
 }
 
 .i2:hover {
-    box-shadow: 8px 8px 20px rgb(48, 47, 47);
+    box-shadow: 8px 8px 20px black;
     transform: translate(0, -5px);
 }
 
-.a2 {
-    animation: anim .7s ease-in-out 2s infinite;
-    width: 7%;
-    margin-left: 6%
-}
-
-.a2:hover {
-    animation-play-state: paused;
-    box-shadow: 4px 4px 20px rgb(254, 114, 33);
-    border-radius: 15px;
-}
-.a3 {
-    animation: anim .7s ease-in-out 2s infinite;
-    width: 7%;
-    margin-left: 6%
-}
-
-.a3:hover {
-    animation-play-state: paused;
-    box-shadow: 4px 4px 20px rgb(254, 114, 33);
-    border-radius: 15px;
-}
 .c5{
-    background-color: rgb(254, 114, 33);
+    background-color: rgb(40, 125, 252);
     border-radius: 30px;
     width: 90%;
 }
@@ -196,18 +185,16 @@ body {
         width: 8%;
         margin-left: 10%;
     }
+    .a2 {
+        width: 12%;
+        margin-left: 16%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
 
     .b1 {
-        margin-left: 42%;
-    }
-    .a2 {
-        width: 8%;
-        margin-left: 19%;
-    }
-    .a3 {
-        width: 8%;
-        margin-left: 13.1%;
-        margin-top: 5%;
+        margin-left: 45%;
     }
     .c6{
         padding-left: 3%;
@@ -228,13 +215,12 @@ body {
     .c3 {
         width: 96.5%;
         margin-left: -50px;
-        margin-bottom: 0%;
+        margin-bottom: -5PX;
 
     }
 
     .c3 h2 {
         font-size: medium;
-        color: rgb(255, 94, 0);
     }
 
     .c3 p {
@@ -246,14 +232,18 @@ body {
         margin-top: 3%;
     }
 
-    .i1 {
-        filter: opacity(.25) grayscale(20);
-    }
 
     .a1 {
         width: 40%;
         margin-left: 28%;
         margin-top: 3%;
+        margin-bottom: 6%;
+    }
+    
+    .a2 {
+        width: 40%;
+        margin-left: 28%;
+        margin-top: 6%;
         margin-bottom: 3%;
     }
 
@@ -266,19 +256,7 @@ body {
     }
 
     .b1 {
-        margin-left: 35%;
-    }
-    .a2 {
-        width: 40%;
-        margin-left: 28%;
-        margin-top: 3%;
-        margin-bottom: 3%;
-    }
-    .a3 {
-        width: 40%;
-        margin-left: 28%;
-        margin-top: 3%;
-        margin-bottom: 3%;
+        margin-left: 40%;
     }
     .c6{
         padding-left:13%;
@@ -291,8 +269,3 @@ body {
 
 }
 
-@media(max-width: 991px) {
-    .c2 {
-        display: none;
-    }
-}
