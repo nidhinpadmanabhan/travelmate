@@ -14,25 +14,27 @@ body {
 
 .c1 h3 {
     font-size: 5em;
-    color: rgb(0, 255, 208);
+    color: rgb(40, 125, 252);
     margin-bottom: 10%;
     transition: 2s ease-in-out;
 }
 
 .c1 h3:hover {
     transform: scale(1.05);
-    color: rgb(40, 125, 252);
+    color: white;
+    text-shadow: 2px 2px 8px black;
 }
 
 .c1 a {
     text-decoration: none;
-    color: rgb(0, 255, 208);
+    color:  rgb(40, 125, 252);
     transition: 1s ease-in;
 }
 
 .c1 a:hover {
     text-decoration: none;
-    color: rgb(40, 125, 252);
+    color: white;
+    text-shadow: 2px 2px 8px black;
 }
 
 .c3 {
