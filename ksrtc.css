@@ -3,7 +3,7 @@ body {
 }
 
 .n1 {
-    background-color: rgb(255, 94, 0);
+    background-color: rgb(254, 114, 33);
     height: 70px;
     width: 100%;
 }
@@ -50,7 +50,7 @@ body {
 
 .a1:hover {
     animation-play-state: paused;
-    box-shadow: 4px 4px 20px rgb(255, 94, 0);
+    box-shadow: 4px 4px 20px rgb(254, 114, 33);
     border-radius: 15px;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 .b1 {
-    background-color: rgb(255, 94, 0);
+    background-color: rgb(254, 114, 33);
     border-radius: 5px;
     margin-top: 5%;
     margin-left: 46%;
@@ -83,7 +83,7 @@ body {
 
 .a2:hover {
     animation-play-state: paused;
-    box-shadow: 4px 4px 20px rgb(255, 94, 0);
+    box-shadow: 4px 4px 20px rgb(254, 114, 33);
     border-radius: 15px;
 }
 .a3 {
@@ -94,11 +94,11 @@ body {
 
 .a3:hover {
     animation-play-state: paused;
-    box-shadow: 4px 4px 20px rgb(255, 94, 0);
+    box-shadow: 4px 4px 20px rgb(254, 114, 33);
     border-radius: 15px;
 }
 .c5{
-    background-color: rgb(255, 94, 0);
+    background-color: rgb(254, 114, 33);
     border-radius: 30px;
     width: 90%;
 }
