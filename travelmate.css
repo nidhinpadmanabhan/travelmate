@@ -285,8 +285,8 @@ body {
 
 @media(max-width: 380px) {
     .c3 {
-        width: 97%;
-        margin-left: -48px;
+        width: 95%;
+        margin-left: -44px;
         margin-bottom: -18PX;
 
     }
@@ -298,11 +298,19 @@ body {
     .c3 p {
         font-size: xx-small;
     }
+        .c1 h3 {
+        font-size: medium;
+        margin-bottom: 0%;
+    }
 
 }
-@media(max-width: 327px){
+@media(max-width: 300px){
     .c3 {
         display: none;
 
+    }
+       .c1 h3 {
+        font-size: xx-small;
+        margin-bottom: 0%;
     }
 }
